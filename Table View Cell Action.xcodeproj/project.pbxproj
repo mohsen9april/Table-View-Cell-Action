@@ -13,6 +13,7 @@
 		ED627BFE223CD0650014817B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED627BFD223CD0650014817B /* Assets.xcassets */; };
 		ED627C01223CD0650014817B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED627BFF223CD0650014817B /* LaunchScreen.storyboard */; };
 		ED627C12223CDE020014817B /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED627C11223CDE020014817B /* ViewControllerTableViewCell.swift */; };
+		ED627C16223CEB470014817B /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED627C15223CEB470014817B /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED627C00223CD0650014817B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED627C02223CD0650014817B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED627C11223CDE020014817B /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		ED627C15223CEB470014817B /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				ED627BF6223CD05E0014817B /* AppDelegate.swift */,
 				ED627BF8223CD05E0014817B /* ViewController.swift */,
 				ED627C11223CDE020014817B /* ViewControllerTableViewCell.swift */,
+				ED627C15223CEB470014817B /* NewViewController.swift */,
 				ED627BFA223CD05E0014817B /* Main.storyboard */,
 				ED627BFD223CD0650014817B /* Assets.xcassets */,
 				ED627BFF223CD0650014817B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				ED627BF9223CD05E0014817B /* ViewController.swift in Sources */,
 				ED627BF7223CD05E0014817B /* AppDelegate.swift in Sources */,
 				ED627C12223CDE020014817B /* ViewControllerTableViewCell.swift in Sources */,
+				ED627C16223CEB470014817B /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

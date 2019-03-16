@@ -59,10 +59,46 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="CODER SWAG" id="k2Y-ky-lRJ"/>
+                    <connections>
+                        <segue destination="2z1-KO-cdb" kind="show" identifier="segue" id="eXJ-7K-BY5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1056.8" y="117.39130434782609"/>
+        </scene>
+        <!--New View Controller-->
+        <scene sceneID="nbu-iA-WXZ">
+            <objects>
+                <viewController id="2z1-KO-cdb" customClass="NewViewController" customModule="Table_View_Cell_Action" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FG4-lb-oUA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YkJ-aa-2WN">
+                                <rect key="frame" x="85" y="132" width="231" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tod-ql-1yw">
+                                <rect key="frame" x="16" y="219" width="343" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ebq-rA-THz"/>
+                    </view>
+                    <connections>
+                        <outlet property="newImageView" destination="tod-ql-1yw" id="daY-cn-DRp"/>
+                        <outlet property="newLabel" destination="YkJ-aa-2WN" id="Zuh-TN-7cp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pOq-fM-Kmo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1796" y="115.59220389805098"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7PI-4G-nOl">
@@ -90,4 +126,5 @@
     <resources>
         <image name="digital" width="1024" height="703"/>
     </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

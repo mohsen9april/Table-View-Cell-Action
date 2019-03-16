@@ -8,12 +8,12 @@
 
 import UIKit
 
+let categoryImage = ["digital","hats","hoodies","shirts"]
+let categoryName = ["digital","hats","hoodies","shirts"]
+var myIndex = 0
+
 class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSource {
     
-    let categoryImage = ["digital","hats","hoodies","shirts"]
-    let categoryName = ["digital","hats","hoodies","shirts"]
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +34,11 @@ class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSou
         cell.myLabel.text = categoryName[indexPath.row]
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "segue", sender: self)
     }
 
 
